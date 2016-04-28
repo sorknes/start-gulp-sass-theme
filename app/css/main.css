@@ -1,0 +1,60 @@
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+.block {
+  /* CSS declarations for `.block` */
+  background-color: red; }
+  .block__element {
+    /* CSS declarations for `.block__element` */
+    background-color: blue; }
+  .block--modifier {
+    /* CSS declarations for `.block--modifier` */
+    background-color: green; }
+    .block--modifier__element {
+      /* CSS declarations for `.block--modifier__element` */
+      background-color: yellow; }
+
+main {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow; }
+  main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.col {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red; }
+  @media (min-width: 768px) {
+    .col {
+      width: 49.15254%;
+      float: left;
+      margin-right: 1.69492%; } }
+  @media (min-width: 992px) {
+    .col {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%; } }
+  @media (min-width: 992px) {
+    .col {
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%; } }
