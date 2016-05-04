@@ -1,0 +1,36 @@
+// ---------------------------------------------------------------------
+//  Susy grid settings
+// ---------------------------------------------------------------------
+$susy: (
+    columns:            12,
+    gutters:            20px / 81px,
+    column-width:       81px,
+    math:               fluid,
+    output:             float,
+    gutter-position:    inside-static,
+    container:          auto,
+    container-position: center,
+    debug: (
+        image:          show,
+        color:          rgba(red, 0.10),
+        output:         overlay,
+        toggle:         bottom right,
+    ),
+    use-custom: (
+        box-sizing:     false
+    ),
+    global-box-sizing:  content-box
+);
+
+// ---------------------------------------------------------------------
+//  Breakpoints / Media Queries
+// ---------------------------------------------------------------------
+$bp-print:          print;
+
+$bp-s-min:          min-width 768px;
+
+$bp-m-min:          min-width 992px;
+
+$bp-l-min:          min-width 1200px;
+
+$bp-xl-min:         min-width 1600px;
