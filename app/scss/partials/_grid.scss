@@ -1,0 +1,20 @@
+$susy: (
+    columns: 12,
+    gutters: 20px / 81px,
+    column-width: 81px,
+    math: fluid,
+    output: float,
+    gutter-position: inside-static,
+    container: auto,
+    container-position: center,
+    debug: (
+        image: show,
+        color: rgba(red, 0.10),
+        output: overlay,
+        toggle: bottom right,
+    ),
+    use-custom: (
+        box-sizing: false
+    ),
+    global-box-sizing: content-box
+);
