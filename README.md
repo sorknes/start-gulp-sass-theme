@@ -41,7 +41,10 @@
     |-- main.scss                # Primary Sass file
 
 
-## Task to be execute in the terminal on any new projects ##
+## These are the NMP packages incuded in this project ##
+* In your project folder, run `npm install` to install all packages
+
+## These are the NMP packages incuded in this project ##
 
 > * https://css-tricks.com/gulp-for-beginners/
 
