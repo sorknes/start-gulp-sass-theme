@@ -12,6 +12,7 @@
     @include e('1') {
         @include span(12 of 12);
 
+        // split column
         @include m('2') {
             @include span(6 of 12);
         }
