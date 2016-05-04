@@ -41,7 +41,7 @@
     |-- main.scss                # Primary Sass file
 
 
-## These are the NMP packages incuded in this project ##
+## Run NMP install ##
 * In your project folder, run `npm install` to install all packages
 
 ## These are the NMP packages incuded in this project ##
