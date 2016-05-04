@@ -18,7 +18,7 @@
 
     stylesheets/
     |
-    |- modules/                #Common modules
+    |- modules/                # Common modules
     |   |- all.scss            # include to get all modules
     |   |- utility.scss        # module name
     |   |- colors.scss         # colors
