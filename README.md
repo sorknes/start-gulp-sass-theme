@@ -2,29 +2,43 @@
 
 > * http://thesassway.com/beginner/how-to-structure-a-sass-project
 
-stylesheets/
-|
-|-- modules/                 # Common modules
-|   |-- _all.scss            # include to get all modules
-|   |-- _utility.scss        # module name
-|   |-- _colors.scss         # colors
-|   |-- functions/           # Common functions
-|   |-- |-- _pxtoem.scss     # convert px to em
-|   |-- mixins/              # Common mixins
-|   |-- |-- _bem.scss        # cssBem helper
-|   ...
-|
-|-- partials/                # Partials
-|   |-- _base.sass           # imports for all mixins + global project variables
-|   |-- _config.scss         # settings
-|   |-- _grid.scss           # grid
-|   |-- _global.scss         # global
-|   ...
-|
-|-- vendor/                  # CSS or Sass from other projects
-|   ...
-|
-|-- main.scss                # Primary Sass file
+    project_folder/
+    |
+    |- app/
+        |- css/
+        |- fonts/
+        |- images/
+        |- index.html
+        |- js/
+        |- scss/
+    |- dist/
+    |- gulpfile.js
+    |- node_modules/
+    |- package.json
+
+    stylesheets/
+    |
+    |- modules/                #Common modules
+    |   |- all.scss            # include to get all modules
+    |   |- utility.scss        # module name
+    |   |- colors.scss         # colors
+    |   |- functions/          # Common functions
+    |   |- |-- pxtoem.scss     # convert px to em
+    |   |- mixins/             # Common mixins
+    |   |- |-- bem.scss        # cssBem helper
+    |   ...
+    |
+    |- partials/               # Partials
+    |   |- base.sass           # imports for all mixins + global project variables
+    |   |- config.scss         # settings
+    |   |- grid.scss           # grid
+    |   |- global.scss         # global
+    |   ...
+    |
+    |-- vendor/                  # CSS or Sass from other projects
+    |   ...
+    |
+    |-- main.scss                # Primary Sass file
 
 
 ## Task to be execute in the terminal on any new projects ##
